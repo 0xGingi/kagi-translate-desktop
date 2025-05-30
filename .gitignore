@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Node/Bun dependencies
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.*
+!.env.example
+
+# Bun specific
+.bun
+.bunx
+
+# Tauri build artifacts
+**/target/
+**/gen/
+**/src-tauri/icons/backup/
+
+# OS specific
+.DS_Store
+.directory
+.Trash-*
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build outputs
+*.exe
+*.AppImage
+*.dmg
+*.deb
+*.msi
+**/bundle/
+aur/
