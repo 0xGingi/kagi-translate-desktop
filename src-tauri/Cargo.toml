@@ -1,6 +1,6 @@
 [package]
 name = "kagi-translate-desktop"
-version = "0.1.3"       
+version = "0.1.4"       
 description = "Kagi Translate Desktop Application"
 authors = ["0xGingi"]
 edition = "2021"
